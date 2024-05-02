@@ -158,7 +158,8 @@ function News(props) {
             onChange={handlePostInput}
             autoComplete="off"
           />  
-          <a href="http://127.0.0.1:45005/ipfs/bafybeidf7cpkwsjkq6xs3r6fbbxghbugilx3jtezbza7gua3k5wjixpmba/#/files" target="_blank">Upload files</a>        
+          <a href="http://127.0.0.1:45005/ipfs/bafybeidf7cpkwsjkq6xs3r6fbbxghbugilx3jtezbza7gua3k5wjixpmba/#/files" target="_blank"><img src="../../images/upload.png" width="50px"></img></a>
+                  
           {/* <form onSubmit={onSubmit} >
             <input onChange={captureFile} type="file"/>
             <input type='submit'/>
